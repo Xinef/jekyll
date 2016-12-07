@@ -1,0 +1,123 @@
+/* -------- =General -------- */
+
+body {
+  background-color: lightgrey;
+}
+
+/* -------- =Typography -------- */
+
+h1,
+h2,
+h3 {
+  color: blue;
+}
+
+h2 {
+  background-color: darkgreen;
+}
+
+p {
+  background-color: yellow;
+}
+
+/* -------- =Basshead -------- */
+
+main p {
+  color: white;
+}
+
+main div p {
+  /* inside a div that's inside a main */
+  color: black;
+}
+
+header > p {
+  /* direct descendant */
+  color: cyan;
+}
+
+h1 + p {
+  /* p immediately besides h1 */
+  color: red;
+}
+
+.reci {
+  background-color: lime;
+}
+
+.pe {
+  color: darkgreen;
+}
+
+ul li:first-child {
+  font-size: 150%;
+}
+
+ul li:nth-child(even) {
+  font-style: italic;
+}
+
+li:nth-child(4) {
+  color: black;
+}
+
+/* -------- =Fonts -------- */
+html {
+  font-family: "Celestia Redux Alternate", monospace;
+  font-size: 2em;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+header {
+  font: normal 1rem/1.5 times, serif;
+}
+
+p {
+  text-transform: uppercase;
+  text-decoration: line-through;
+  text-align: justify;
+  text-indent: 1em;
+
+  /*text-shadow: 0.1em 0.1em 0.1em cyan;*/
+  letter-spacing: 0.1em;
+  word-spacing: -0.1em;
+}
+
+p::first-letter {
+  font-size: 2em;
+}
+
+::selection {
+  color: black;
+  background: white;
+}
+
+a,
+a:link {
+  color: black;
+  text-shadow: 0.1em 0.1em 0.1em darkblue;
+}
+
+a:visited {
+  text-shadow: 0.1em 0.1em 0.1em blue;
+}
+
+a:hover {
+  text-shadow: 0.1em 0.1em 0.1em violet;
+}
+
+a:focus {
+  text-shadow: 0.1em 0.1em 0.1em purple;
+}
+
+a:active {
+  text-shadow: 0.1em 0.1em 0.1em cyan;
+}
+
+/* -------- =Lists -------- */
+
+ul, ol {
+  list-style-type: lower-greek;
+}
