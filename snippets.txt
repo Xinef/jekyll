@@ -1,0 +1,61 @@
+
+
+    html5
+
+        The HTML boilerplate code.
+
+        <!DOCTYPE html>
+        <html lang="en-ca">
+        <head>
+          <meta charset="utf-8">
+          <title></title>
+        </head>
+        <body>
+        </body>
+        </html>
+
+    css
+
+        Creates a new CSS link tag.
+
+        <link href=".css" rel="stylesheet">
+
+    viewport
+
+        Adds the responsive viewport tags.
+
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+
+CSS
+
+    cssviewport
+
+        Outputs the CSS viewport declarations.
+
+        @viewport { width: device-width; scale: 1; }
+
+    borderbox
+
+        Outputs the CSS border box declarations for changing the layout math.
+
+        html {
+          box-sizing: border-box;
+        }
+
+        *, *::before, *::after {
+          box-sizing: inherit;
+        }
+
+    textsize
+
+        Outputs the text-size-adjust declarations to prevent mobile browsers from changing the font-size.
+
+        text-size-adjust: 100%;
+
+    mq
+
+        Outputs a new media query, placing the cursor in the min-width location.
+
+        @media only screen and (min-width: 25em) {
+
+        }
