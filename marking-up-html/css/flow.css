@@ -1,0 +1,18 @@
+html {
+  color: #333;
+  font: normal 100%/1.5 serif;
+}
+
+h1 {
+  color: #666;
+}
+
+.details-list i {
+  display: block;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.details-list li {
+  margin-bottom: 1.5em;
+}
