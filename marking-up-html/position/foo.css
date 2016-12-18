@@ -1,0 +1,44 @@
+.blue {
+  background-color: blue;
+}
+
+.purple {
+  background-color: purple;
+
+  position: absolute;
+  width: 50%;
+  top: 30%;
+  bottom: 30%;
+
+  z-index: 1;
+}
+
+.green {
+  background-color: green;
+
+  position: relative;
+  top: -5px;
+  left: 10px;
+}
+
+.parent {
+  position: relative;
+}
+
+img {
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+.fixed {
+  position: fixed;
+  bottom: 50px;
+  right: 25px;
+
+  z-index: 2;
+}
+
+p {
+  font-size: 1.5em;
+}
